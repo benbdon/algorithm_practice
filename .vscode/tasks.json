@@ -6,10 +6,12 @@
         {
             "label": "build insertion_sort",
             "type": "shell",
-            "command": "g++",
-            "args": [
-                "insertion_sort.cpp", "-o main"
-            ],
+            "linux": {
+                "command": "g++ -g insertion_sort.cpp -o main.o",
+            },
+            "windows": {
+                "command": "g++ -g insertion_sort.cpp -o main.exe"
+            },
             "group": {
                 "kind": "build",
                 "isDefault": true
