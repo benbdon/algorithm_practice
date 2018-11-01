@@ -19,7 +19,7 @@
             "type": "cppdbg",
             "request": "launch",
             "cwd": "${workspaceRoot}",
-            "externalConsole": true,
+            "externalConsole": false,
             "stopAtEntry": false,
             "setupCommands": [
                 {
